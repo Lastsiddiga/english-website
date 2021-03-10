@@ -1,0 +1,25 @@
+/*@import "text.css" ;*/
+body {
+    background-image: url(dino.png);
+    background-position: 90% -60%;
+    background-repeat: no-repeat;
+    background-size: 30cm;
+}
+.header {
+    padding: 10px;
+    color: black;
+}
+
+.menu {
+    width: 100%;
+    float: left;
+    padding: 15px;
+    color: black;
+}
+/*
+div.menu#title {
+    color:red;
+}
+#title{
+    color:blue;
+}*/

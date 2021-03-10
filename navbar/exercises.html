@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Dinazor</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/exercises.css">
+    <link rel="stylesheet" href="../css/text.css">
+    <script>
+        const buttonRight = document.getElementById('slideRight');
+        const buttonLeft = document.getElementById('slideLeft');
+
+        buttonRight.onclick = function () {
+            document.getElementById('container').scrollLeft += 20;
+        };
+        buttonLeft.onclick = function () {
+            document.getElementById('container').scrollLeft -= 20;
+        };
+    </script>
+
+</head>
+
+<body class="bakgroundimage">
+    <div class="container">
+        <header style="font-size: 300%;"><br>LEARNING ENGLISH</header>
+        <nav>
+            <div class="navbar">
+                <a href="index.html">HOME</a>
+                <a href="words.html">WORDS</a>
+                <div class="dropdown">
+                    <button class="dropbtn">LEVELS
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content">
+                        <a href="a1.html">A1</a>
+                        <a href="a2.html">A2</a>
+                        <a href="b1.html">B1</a>
+                        <a href="b2.html">B2</a>
+                        <a href="c1.html">C1</a>
+                        <a href="c2.html">C2</a>
+                    </div>
+                </div>
+                <a class="active" href="exercises.html">EXERCISES</a>
+            </div>
+            <!--
+            <ul>
+                <li><a class="active" href="#home">Giriş</a></li>
+                <li class="dropdown"><a href="İngilizce Dersleri.html">Seviyeler</a>
+                
+                </li>
+                <li><a href="#contact">Kelimeler</a></li>
+                <li><a href="#about">Hakkında</a></li>
+            </ul> -->
+        </nav>
+
+        <div id="ex1">
+            <h3>PRESENT SIMPLE READINGS</h3>
+            <a href="/home/lastsiddiga/Documents/İngilizce Dersleri/Stories/simple-present-story-1.pdf">
+                <img src="../css/pdfler/sımple 1.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Documents/İngilizce Dersleri/Stories/simple-present-story-2.pdf">
+                <img src="../css/pdfler/sımple 2.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Documents/İngilizce Dersleri/Stories/simple-present-story-3.pdf">
+                <img src="../css/pdfler/sımple 3.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Documents/İngilizce Dersleri/Stories/simple-present-story-4.pdf">
+                <img src="../css/pdfler/simple 4.png" alt="HTML tutorial">
+            </a>
+
+
+        </div>
+        <div id="ex2">
+            <h3>PRESENT CONTINUOS READINGS</h3>
+            <a href="/home/lastsiddiga/Documents/İngilizce Dersleri/Stories/present-progressive-story-1.pdf">
+                <img src="../css/pdfler/CONT1.jpg" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Documents/İngilizce Dersleri/Stories/present-progressive-story-2.pdf">
+                <img src="../css/pdfler/CONT2.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Documents/İngilizce Dersleri/Stories/present-progressive-story-3.pdf">
+                <img src="../css/pdfler/CONT3.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Documents/İngilizce Dersleri/Stories/present-progressive-story-4.pdf">
+                <img src="../css/pdfler/CONT4.png" alt="HTML tutorial">
+            </a>
+
+        </div>
+        <div id="ex3">
+            <h3>PRESENT PERFECT READINGS</h3>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-story-1.pdf">
+                <img src="../css/pdfler/PP1.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-story-2.pdf">
+                <img src="../css/pdfler/PP2.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-story-3.pdf">
+                <img src="../css/pdfler/PP3.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-story-4.pdf">
+                <img src="../css/pdfler/PP4.png" alt="HTML tutorial">
+            </a>
+        </div>
+        <div id="ex4">
+            <h3>PRESENT PERFECT CONTINUOS READINGS</h3>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-progressive-story-1.pdf">
+                <img src="../css/pdfler/PPC1.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-progressive-story-2.pdf">
+                <img src="../css/pdfler/PPC2.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-progressive-story-3.pdf">
+                <img src="../css/pdfler/PPC3.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-progressive-story-4.pdf">
+                <img src="../css/pdfler/PPC4.png" alt="HTML tutorial">
+            </a>
+        </div>
+        <div id="ex5">
+            <!--<h3>A1 LEVEL READINGS</h3>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-progressive-story-4.pdf">
+                <img src="" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-progressive-story-4.pdf">
+                <img src="css/pdfler/PPC4.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-progressive-story-4.pdf">
+                <img src="css/pdfler/PPC4.png" alt="HTML tutorial">
+            </a>
+            <a href="/home/lastsiddiga/Downloads/present-perfect-progressive-story-4.pdf">
+                <img src="css/pdfler/PPC4.png" alt="HTML tutorial">
+            </a>-->
+
+
+
+
+        </div>
+        <div id="ex6">
+            <!-- <h3>A1 LEVEL WRITINGS</h3>-->
+
+        </div>
+        <div id="ex7">
+
+        </div>
+        <div id="ex8">
+
+        </div>
+
+    </div>
+    <div id="menu"></div>
+    <div id="content1"></div>
+    <!--<footer> Footer</footer>-->
+    </div>
+
+</body>
+
+</html>
